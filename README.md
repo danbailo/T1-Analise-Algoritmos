@@ -5,4 +5,4 @@ O objetivo do Trabalho consiste em realizar uma análise detalhada do comportame
 
 Neste caso, foi feita uma análise do <b>Fibonacci Recursivo, Fibonacci Iterativo e Busca Binária.</b>
 
-![alt](fibonacci_recursivo.png | width=100)
+Para ler o trabalho, basta clicar ([aqui](Relátorio/main.pdf))
