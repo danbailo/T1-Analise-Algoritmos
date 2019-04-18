@@ -1,0 +1,6 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}Resumo}{1}
+\contentsline {section}{\numberline {2}Fibonacci Recursivo}{2}
+\contentsline {section}{\numberline {3}Fibonacci Iterativo}{5}
+\contentsline {section}{\numberline {4}Busca Bin\IeC {\'a}ria}{6}
+\contentsline {section}{\numberline {5}Ap\IeC {\^e}ndice I}{8}

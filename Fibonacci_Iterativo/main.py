@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from timeit import timeit
 
@@ -28,7 +27,8 @@ if __name__ == "__main__":
 	t15 = timeit('fib(1500)', 'from __main__ import fib', number=1)
 
 	y = np.array([t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15])
-	x = np.array([10,100,200,300,400,500,600,650,750,850,905,1050,1200,1300,1400,1500])
+	x = np.array([10,100,200,300,400,500,600,650,750,
+	850,905,1050,1200,1300,1400,1500])
 
 	yp = None
 
