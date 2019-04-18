@@ -318,7 +318,13 @@ Portanto, temos que $T(n) = \theta(log \ n)$.
 
 \newpage
 \section{Apêndice I}
-Neste apêndice, será mostrado o código completo de execução do Fibonacci Rescursivo e Iterativo, e além disso, para cada código, será calculado o tempo de execução para o {\it n-ésimo} termo da sequência e em seguida um gráfico de comparação entre os dois códigos.\\
+Neste apêndice, será mostrado o código completo de execução do Fibonacci Rescursivo e Iterativo, e além disso, para cada código, será calculado o tempo de execução para o {\it n-ésimo} termo da sequência e em seguida um gráfico de comparação entre os dois códigos.
+
+Cada código gera calcula 16 valores para um dado $n$, as variáveis de $t0$ à $t15$ armazena o tempo de execução de cada $fib(n)$ onde $fib$ é a função que retorna o termo da sequência para um dado $n$.
+
+Após realizar o cálculo dos valores, tendo esses valores e o tempo de execução para cada valor, cada código gera um gráfico de tempo em função de $fib(n)$. Os gráficos gerados pelos algoritmos serão mostrados mais abaixo no tópico de {\bf Análise Gráfica}.
+
+{\it Para executar os algoritmos, basta copiar o código fonte e salvar um arquivo com extensão .py e realizar a chamada pelo arquivo no terminal/prompt com o python3.}\\
 
 {\large\bf Fibonacci Recursivo}
 \lstinputlisting[language=Python]{../Fibonacci_Recursivo/main.py}
@@ -334,7 +340,9 @@ Neste apêndice, será mostrado o código completo de execução do Fibonacci Re
 
 {\Large\bf Fibonacci Recursivo}\\
 
-Tendo visto que a complexidade do algoritmo do Fibonacci Recursivo é $O(2^n)$, podemos ver que seu custo computacional é muito alto. Como podemos analisar nos gráficos, quando $n=39$ e $n=42$, seu tempo de execução em segundos aumenta drasticamente para 3 unidades a mais somente. Mesmo para valores pequenos de $n$, sua execução demanda muito tempo. Na computação, é desejável que resultados sejam alcançados da forma mais rápida possível, sendo inviável a utilização deste algoritmo para determinado cálculo.
+Tendo visto que a complexidade do algoritmo do Fibonacci Recursivo é $O(2^n)$, podemos ver que seu custo computacional é muito alto. Como podemos analisar nos gráficos, quando $n=39$ e $n=42$, seu tempo de execução em segundos aumenta drasticamente para 3 unidades a mais de $n$ soment.
+
+Mesmo para valores pequenos de $n$, sua execução demanda muito tempo. Na computação, é desejável que resultados sejam alcançados da forma mais rápida possível, sendo inviável a utilização deste algoritmo para determinado cálculo sabendo que existe formas mais rápidas para encontrar os valores da sequência.
 
 %----------AMBIENTE DE FIGURA-----------------
 \begin{figure}[h]
@@ -358,7 +366,10 @@ Tendo visto que a complexidade do algoritmo do Fibonacci Recursivo é $O(2^n)$, 
 
 {\Large\bf Fibonacci Iterativo}\\
 
-Agora, como podemos notar, é de fácil vizualização que um algoritmo de custo linear, $O(n)$ no qual é o Fibonacci Iterativo é muito mais leve computacionalmente falando do que um algoritmo de custo exponecial. 
+Sabendo que a complexidade do Fibonacci Interativo é $O(n)$, onde este se comporta como uma função linear, é facil vizualizar que seu custo computacional é muito mais leve do que uma função exponencial. 
+
+Olhando para o gráfico, podemos ver que os valores de $n$ são muito maiores do que os valores utilizado no Fibonacci Recursivo, e este algorimo retorna o valor desejado praticamente instantaneamente. Se tivesse testado esses valores de $n$ no Fibonacci Recursivo, além de muito processamento exigido, poderia demorar horas, quem sabe dias para retornar o resultado desejado.
+
 
 %----------AMBIENTE DE FIGURA-----------------
 \begin{figure}[h]
@@ -383,9 +394,11 @@ Agora, como podemos notar, é de fácil vizualização que um algoritmo de custo
 \section{Conclusão}
 %{\Large\bf Conclusão}\\
 
-Portanto, é possível concluir que, para um dado problema, quanto menor possível for a complexidade para resolução do mesmo, melhor. É claro que, este é um exemplo simples e muito conhecido na computação, porém, é muito interessante para estudantes da computação que ainda não tem o conhecimento de Análise Assintótica e não sabem o que é e como se comporta a complexidade de um algoritmo a leitura deste trabalho, pois provavelmente a maioria dos alunos dos cursos já escreveram o algoritmo para mostrar a {\it Sequência de Fibonacci}, então seria um exemplo de simples entendimento.
+Portanto, é possível concluir que, para um dado problema, quanto menor possível for a complexidade para resolução do mesmo, melhor. É claro que, este é um exemplo simples e muito conhecido na computação, porém, é muito interessante para estudantes da computação que ainda não tem o conhecimento de Análise Assintótica e não sabem o que é e como se comporta a complexidade de um algoritmo a leitura deste trabalho, pois provavelmente a maioria dos alunos dos cursos de computação já escreveram um programa para mostrar a {\it Sequência de Fibonacci}, então seria um exemplo de fácil compreensão.
 
-Existe algoritmos melhores para retornar o {\it n-ésimo} número desejado desta sequência em $O(logn)$.
+Existe algoritmos melhores para retornar o {\it n-ésimo} número desejado desta sequência em $O(logn)$. Porém, este foi somente um trabalho para comparar estes dois algoritmos considerando que eu já deveria realizar a Analíse Assintótica de cada um como trabalho proposto pelo professor ministrante da disciplina. 
+
+Abaixo estão as figuras lado a lado dos dois algoritmos comparados, ampliadas num intervalo para a melhor vizualização e comparação de tempo em relação ao {\it n-ésimo} termo da sequência.
 
 %----------AMBIENTE DE FIGURA-----------------
 \begin{figure}[h]
