@@ -326,4 +326,84 @@ Neste apêndice, será mostrado o código completo de execução do Fibonacci Re
 {\large\bf\quad Fibonacci Iterativo}
 \lstinputlisting[language=Python]{../Fibonacci_Iterativo/main.py}
 
+\newpage
+
+%\vspace{0.6cm}
+%{\Large\bf\quad Análise Gráfica} \\
+{\LARGE\bf Análise Gráfica}\\
+
+{\Large\bf Fibonacci Recursivo}\\
+
+Tendo visto que a complexidade do algoritmo do Fibonacci Recursivo é $O(2^n)$, podemos ver que seu custo computacional é muito alto. Como podemos analisar nos gráficos, quando $n=39$ e $n=42$, seu tempo de execução em segundos aumenta drasticamente para 3 unidades a mais somente. Mesmo para valores pequenos de $n$, sua execução demanda muito tempo. Na computação, é desejável que resultados sejam alcançados da forma mais rápida possível, sendo inviável a utilização deste algoritmo para determinado cálculo.
+
+%----------AMBIENTE DE FIGURA-----------------
+\begin{figure}[h]
+\centering
+%------------PRIMEIRA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_recursivo.png}
+\caption{Fibonacci Recursivo}
+\end{minipage}
+%---------------------------------------------
+\hfill
+%-------------SEGUNDA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_recursivo_zoom.png}
+\caption{Ampliado num Intervalo}
+\end{minipage}
+%--------------------------------------------
+\end{figure}
+%--------
+\newpage
+
+{\Large\bf Fibonacci Iterativo}\\
+
+Agora, como podemos notar, é de fácil vizualização que um algoritmo de custo linear, $O(n)$ no qual é o Fibonacci Iterativo é muito mais leve computacionalmente falando do que um algoritmo de custo exponecial. 
+
+%----------AMBIENTE DE FIGURA-----------------
+\begin{figure}[h]
+\centering
+%------------PRIMEIRA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_iterativo.png}
+\caption{Fibonacci Iterativo}
+\end{minipage}
+%---------------------------------------------
+\hfill
+%-------------SEGUNDA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_iterativo_zoom.png}
+\caption{Ampliado num Intervalo}
+\end{minipage}
+%--------------------------------------------
+\end{figure} 
+%--------
+\newpage
+
+\section{Conclusão}
+%{\Large\bf Conclusão}\\
+
+Portanto, é possível concluir que, para um dado problema, quanto menor possível for a complexidade para resolução do mesmo, melhor. É claro que, este é um exemplo simples e muito conhecido na computação, porém, é muito interessante para estudantes da computação que ainda não tem o conhecimento de Análise Assintótica e não sabem o que é e como se comporta a complexidade de um algoritmo a leitura deste trabalho, pois provavelmente a maioria dos alunos dos cursos já escreveram o algoritmo para mostrar a {\it Sequência de Fibonacci}, então seria um exemplo de simples entendimento.
+
+Existe algoritmos melhores para retornar o {\it n-ésimo} número desejado desta sequência em $O(logn)$.
+
+%----------AMBIENTE DE FIGURA-----------------
+\begin{figure}[h]
+\centering
+%------------PRIMEIRA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_recursivo_zoom.png}
+\caption{\scriptsize Fibonacci Recursivo Ampliado}
+\end{minipage}
+%---------------------------------------------
+\hfill
+%-------------SEGUNDA FIGURA------------------
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{../fibonacci_iterativo_zoom.png}
+\caption{\scriptsize Fibonacci Iterativo Ampliado}
+\end{minipage}
+%--------------------------------------------
+\end{figure} 
+%--------
+
 \end{document}

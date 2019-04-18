@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {3}Fibonacci Iterativo}{5}
 \contentsline {section}{\numberline {4}Busca Bin\IeC {\'a}ria}{6}
 \contentsline {section}{\numberline {5}Ap\IeC {\^e}ndice I}{8}
+\contentsline {section}{\numberline {6}Conclus\IeC {\~a}o}{13}

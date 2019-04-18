@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.17)  18 APR 2019 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.17)  18 APR 2019 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,31 +1250,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
  []
 
 (../Fibonacci_Recursivo/main.py [8]) (../Fibonacci_Iterativo/main.py [9])
-[10] (./main.aux) ) 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+<../fibonacci_recursivo.png, id=55, 462.528pt x 346.896pt>
+File: ../fibonacci_recursivo.png Graphic file (type png)
+<use ../fibonacci_recursivo.png>
+Package pdftex.def Info: ../fibonacci_recursivo.png  used on input line 344.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+<../fibonacci_recursivo_zoom.png, id=57, 462.528pt x 346.896pt>
+File: ../fibonacci_recursivo_zoom.png Graphic file (type png)
+<use ../fibonacci_recursivo_zoom.png>
+Package pdftex.def Info: ../fibonacci_recursivo_zoom.png  used on input line 35
+1.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+[11 <../fibonacci_recursivo.png> <../fibonacci_recursivo_zoom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+<../fibonacci_iterativo.png, id=64, 462.528pt x 346.896pt>
+File: ../fibonacci_iterativo.png Graphic file (type png)
+<use ../fibonacci_iterativo.png>
+Package pdftex.def Info: ../fibonacci_iterativo.png  used on input line 368.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+<../fibonacci_iterativo_zoom.png, id=65, 462.528pt x 346.896pt>
+File: ../fibonacci_iterativo_zoom.png Graphic file (type png)
+<use ../fibonacci_iterativo_zoom.png>
+Package pdftex.def Info: ../fibonacci_iterativo_zoom.png  used on input line 37
+5.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+[12 <../fibonacci_iterativo.png> <../fibonacci_iterativo_zoom.png>]
+File: ../fibonacci_recursivo_zoom.png Graphic file (type png)
+<use ../fibonacci_recursivo_zoom.png>
+Package pdftex.def Info: ../fibonacci_recursivo_zoom.png  used on input line 39
+5.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+File: ../fibonacci_iterativo_zoom.png Graphic file (type png)
+<use ../fibonacci_iterativo_zoom.png>
+Package pdftex.def Info: ../fibonacci_iterativo_zoom.png  used on input line 40
+2.
+(pdftex.def)             Requested size: 175.49881pt x 131.62599pt.
+ [13]
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16390 strings out of 492982
- 296485 string characters out of 6134896
+ 16414 strings out of 492982
+ 297149 string characters out of 6134896
  618139 words of memory out of 5000000
- 19605 multiletter control sequences out of 15000+600000
+ 19623 multiletter control sequences out of 15000+600000
  13702 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,400b,1679s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 149280 bytes).
+ 55i,10n,54p,633b,1679s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on main.pdf (15 pages, 258368 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
