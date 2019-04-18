@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from timeit import timeit
 
@@ -26,16 +25,6 @@ if __name__ == "__main__":
 	t14 = timeit('fib(39)', 'from __main__ import fib', number=1)
 	t15 = timeit('fib(42)', 'from __main__ import fib', number=1)
 
-	data = {
-		'x':[1,3,6,9,12,15,18,21,23,24,27,30,33,36,39,42],
-		'y':[1,2,8,34,144,610,2584,10946,28657,46368,196418,832040,3524578,14930352,63245986,267914296],
-		'time':[t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15]
-	}
-
-	df = pd.DataFrame(data, columns=['x','y','time'])
-
-	print(df)
-
 	y = np.array([t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15])
 	x = np.array([1,3,6,9,12,15,18,21,23,24,27,30,33,36,39,42])
 
@@ -48,17 +37,10 @@ if __name__ == "__main__":
 	ax.plot(x, y, 'o', xi, yi,)
 
 	plt.grid()
-	plt.title('Growth Rate Fibonacci')
+	plt.title('Taxa de Crescimento do Fibonacci Recursivo')
 	plt.xlabel('Fibonacci(x)')
-	plt.ylabel('Time(seconds)')
-	plt.savefig('crescimento_fibonacci.png')
-
-	df.plot()
-	plt.grid()
-	plt.title('Growth Rate Fibonacci using Pandas')
-	plt.xlabel('Time(seconds) and x value')
-	plt.ylabel('y or Fibonacci(x)')
-	plt.savefig('crescimento_fibonacci_pandas.png')
+	plt.ylabel('Tempo(segundos)')
+	plt.savefig('fibonacci_recursivo.png')
 	
 	plt.show()
 	

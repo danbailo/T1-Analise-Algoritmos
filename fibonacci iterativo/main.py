@@ -27,17 +27,6 @@ if __name__ == "__main__":
 	t14 = timeit('fib(1400)', 'from __main__ import fib', number=1)
 	t15 = timeit('fib(1500)', 'from __main__ import fib', number=1)
 
-	data = {
-		'x':[10,100,200,300,400,500,600,650,750,850,905,1050,1200,1300,1400,1500],
-		'time':[t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15],
-		# 'y':[1,2,8,34,144,610,2584,10946,28657,46368,196418,832040,3524578,14930352,63245986,267914296]
-	}
-
-	# df = pd.DataFrame(data, columns=['x','y','time'])
-	df = pd.DataFrame(data, columns=['x','time'])
-
-	print(df)
-
 	y = np.array([t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15])
 	x = np.array([10,100,200,300,400,500,600,650,750,850,905,1050,1200,1300,1400,1500])
 
@@ -50,16 +39,9 @@ if __name__ == "__main__":
 	ax.plot(x, y, 'o', xi, yi,)
 
 	plt.grid()
-	plt.title('Growth Rate Fibonacci Iterative')
+	plt.title('Taxa de Crescimento do Fibonacci Iterativo')
 	plt.xlabel('Fibonacci(x)')
-	plt.ylabel('Time(seconds)')
-	plt.savefig('crescimento_fibonacci_iterativo.png')
-
-	df.plot()
-	plt.grid()
-	plt.title('Growth Rate Fibonacci Iterative using Pandas')
-	plt.xlabel('Time(seconds) and x value')
-	plt.ylabel('y or Fibonacci(x)')
-	plt.savefig('crescimento_fibonacci_pandas_iterativo.png')
+	plt.ylabel('Tempo(segundos)')
+	plt.savefig('fibonacci_iterativo.png')
 	
 	plt.show()
